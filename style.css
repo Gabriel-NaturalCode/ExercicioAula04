@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Fauna+One&display=swap');
+
+* {
+    font-family: 'Fauna One', serif;
+}
+
+.header {
+    text-align: center;
+    font-size: 25px;
+    background-color: #F4DFB6;
+    color: #251f10;
+}
+
+.section {
+    text-align: center;
+    background-color: #F4DFB6;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    color: #251f10;
+    transition: transform 0.3s;
+}
+
+.section:hover {
+    transform: scale(1.01);
+    border: 1px solid #251f10dc;
+    box-shadow: 5px 5px 15px #251f1067;
+}
+
+.aside {
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    background-color: #FCDEC0;
+    border-radius: 5px;
+    color: #251f10;
+    transition: transform 0.2s;
+    padding: 5px;
+    font-size: 15px;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 15px;
+}
+
+.aside-rotas {
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    background-color: #FCDEC0;
+    border-radius: 5px;
+    color: #251f10;
+    transition: transform 0.2s;
+    width: 350px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.aside-rotas:hover {
+    transform: scale(1.02);
+} 
+
+.aside-column {
+    width: 200px;
+}
+
+li {
+    display: inline-block;
+    margin-right: 40px;
+    font-size: 25px;
+}
+
+main {
+    background-color: #bd9c5a;
+}
+
+.fg-inline {
+    display: inline-block;
+    margin-right: 30px;
+    transition: transform 0.4s;
+}
+
+.fg-inline > figcaption {
+    font-size: 10px;
+}
+
+.fg-inline:hover {
+    transform: scale(1.2);
+}
+
+.fg-inline-index {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.img-rotas {
+    width: 220px;
+    height: 220px;
+    cursor: pointer;
+}
+
+.div-rotas {
+    text-align: center;
+    font-size: 18px;
+    transition: transform 0.3s;
+    cursor: pointer;
+}
+
+.div-rotas:hover {
+    transform: scale(1.1);
+}
+
+article {
+    text-align: center;
+    background-color: #F4DFB6;;
+    font-size: 15px;
+    padding: 50px;
+    margin: 10px;
+    border-radius: 20px;
+    color: #251f10;
+}
+
+.section-sobre {
+    text-align: center;
+    background-color: #F4DFB6;
+    font-size: 15px;
+    padding: 50px;
+    margin: 10px;
+    border-radius: 20px;
+    color: #251f10;
+}
+
+a.menu {
+    text-decoration: none;
+    color: #251f10;
+}
+
+a.menu:hover {
+    color: rgb(0, 0, 99);
+    font-weight: bold;
+}
+
+.aside > h3 {
+    font-size: 20px;
+}
+
+.aside:hover {
+    transform: scale(1.02);
+}
+
+.botao-topo {
+    text-decoration: none;
+    color: #251f10;
+    font-size: 20px;
+    background-color: #F4DFB6;
+    border: 10px solid #F4DFB6;
+    border-radius: 10px;
+    padding: 5px;
+    opacity: 0.7;
+    transition: opacity 0.3s;
+}
+
+.botao-topo:hover {
+    opacity: 1;
+    color: black;
+}
+
+hr {
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
